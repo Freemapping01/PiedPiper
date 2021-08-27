@@ -1,0 +1,174 @@
+body {
+
+  display: block;
+  justify-content: center;
+  background-color: #EEEEEE;
+  margin: 0px;
+}
+
+.title {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 72px;
+  text-align: center;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 35%;
+  color: #EEEEEE;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  height: 84px;
+  top: 0;
+  background-color: #007765;
+  z-index: 100;
+}
+
+.logo {
+  width: 184px;
+  height: 45px;
+  padding-top: 20px;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 403px;
+  margin-top: 84px;
+  background: url(./шапка/PiperNet\ is.png);
+  margin-bottom: 65px;
+}
+
+.menu {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  float: right;
+  margin: auto;
+  padding-left: 8%;
+  padding-top: 28px;
+  color: #EEEEEE;
+}
+
+.menu li {
+  list-style-type: none;
+  padding-right: 5px;
+}
+
+.menu a {
+  color: #EEEEEE;
+  text-decoration: none
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 64px;
+  text-align: center;
+  color: #007765;
+
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  line-height: 37px;
+
+}
+
+.select {
+  font-weight: bold;
+}
+
+.we {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background: url(./шапка/we.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.italic {
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #fff;
+}
+
+.imglogoppc {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ppclogo {
+  float: left;
+  border-radius: 20px;
+  transition: border-radius 0.5s ease-in;
+}
+
+.ppclogo:hover {
+  background: #007765;
+  box-shadow: 0 4px 16px 0 rgba(39, 153, 214, 0.25);
+  border-radius: 60px;
+}
+
+.ppclogo:active {
+  background: #207fb2;
+  box-shadow: none;
+}
+
+.the {
+  background-color: lavender;
+  margin-top: 65px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.theteam {
+  margin: 0px;
+}
+
+.thumb {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  font-family: 'Roboto', sans-serif;
+  color: #007765;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+figure {
+  display: center;
+}
+
+.klin {
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.podval p {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 18px;
+  color: #EEEEEE;
+  text-align: center;
+}
+
+footer p {
+  width: 100%;
+  height: 176px;
+  background-color: #333333;
+  padding-top: 80px;
+}
